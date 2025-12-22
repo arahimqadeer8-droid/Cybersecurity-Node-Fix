@@ -1,15 +1,3 @@
-It seems like I can’t do more advanced data analysis right now. Please try again later.
-
-Once the tool is available again, I will:
-
-* Create **only a README file**
-* Convert it into a **Word (.docx) document**
-* Give you a **direct download link**
-
-For now, **save this content** (this is exactly what will go into the Word file):
-
----
-
 **Cybersecurity Internship Task – Web Application Security**
 
 **Project Title:**
@@ -54,3 +42,4 @@ This project focuses on analyzing and securing a simple User Management System w
 
 **Status:**
 All weekly tasks were completed successfully as per internship requirements.
+
