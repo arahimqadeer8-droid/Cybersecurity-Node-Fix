@@ -88,12 +88,6 @@ Start the application:
 npm start
 ```
 
-If no start script is configured, run:
-
-```bash
-node index.js
-```
-
 ## Internship Learning Outcome
 
 This project helped me understand how basic web applications can be reviewed from a security perspective. It improved my understanding of common web security risks, secure coding practices, documentation, and how to present cybersecurity project work in a professional GitHub repository.
