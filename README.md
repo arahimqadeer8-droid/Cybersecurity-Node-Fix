@@ -1,45 +1,103 @@
-**Cybersecurity Internship Task – Web Application Security**
+# Web Application Security Hardening — Node.js
 
-**Project Title:**
-Strengthening Security Measures for a Web Application
+## Project Overview
 
-**Overview:**
-This project focuses on analyzing and securing a simple User Management System web application. The objective is to identify common security vulnerabilities and implement basic cybersecurity measures using standard tools and best practices as part of a cybersecurity internship.
+This project is a cybersecurity internship task focused on improving the security posture of a simple Node.js web application. The application is built using Express.js and demonstrates basic web application security concepts such as secure request handling, input review, authentication flow testing, and security-focused documentation.
 
-**Application Setup:**
+The purpose of this project is to analyze a basic user management application, identify possible security weaknesses, and document recommended security improvements based on common web application security practices.
 
-* Mock web-based application sourced from GitHub
-* Installed dependencies using `npm install` and `npm start`
-* Application tested locally at `http://localhost:3000`
-* Features tested: Signup, Login, and Profile Management
+## Project Title
 
-**Week 1: Security Assessment:**
+**Strengthening Security Measures for a Web Application**
 
-* Explored application structure and user flows
-* Performed vulnerability assessment using OWASP ZAP, browser developer tools, and manual testing
-* Tested for XSS and SQL Injection vulnerabilities
-* Documented identified vulnerabilities and improvement areas
+## Technologies Used
 
-**Week 2: Implementing Security Measures:**
+* Node.js
+* Express.js
+* Body Parser
+* JavaScript
+* GitHub
+* Manual security testing
 
-* Input validation and sanitization using validator library
-* Password hashing and salting using bcrypt
-* Implemented token-based authentication using JSON Web Tokens (JWT)
-* Secured HTTP headers using Helmet.js
+## Application Features
 
-**Week 3: Advanced Security and Final Reporting:**
+* Basic web server using Express.js
+* User-related request handling
+* Simple application structure for security review
+* Sample security log file
+* Project requirements documentation
 
-* Conducted basic penetration testing using Nmap and browser-based testing
-* Implemented logging using Winston
-* Created a security best practices checklist including input validation, HTTPS usage, and password security
+## Security Assessment
 
-**Final Deliverables:**
+During the assessment phase, the application structure and request flow were reviewed to identify possible security concerns, including:
 
-* Secure web application
-* GitHub repository with source code and README
-* Final report summarizing vulnerabilities and fixes
-* Recorded video explanation
+* Weak input handling
+* Lack of strong validation
+* Missing security headers
+* Authentication-related risks
+* Insecure coding practices
+* Lack of detailed logging and monitoring
 
-**Status:**
-All weekly tasks were completed successfully as per internship requirements.
+## Security Improvements Suggested
 
+The following improvements are recommended for strengthening the application:
+
+* Add proper input validation and sanitization
+* Implement password hashing before storing user passwords
+* Use secure authentication mechanisms such as JWT or session-based authentication
+* Add HTTP security headers using security middleware
+* Improve logging for suspicious activity
+* Avoid exposing sensitive information in errors
+* Use environment variables for secrets and configuration
+* Keep dependencies updated
+
+## Files Included
+
+| File                      | Description                        |
+| ------------------------- | ---------------------------------- |
+| `index.js`                | Main Node.js application file      |
+| `package.json`            | Project metadata and dependencies  |
+| `README.md`               | Project overview and documentation |
+| `PROJECT_REQUIREMENTS.md` | Internship task requirements       |
+| `sample-security.log`     | Sample security log file           |
+| `.gitignore`              | Files and folders ignored by Git   |
+
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/xhazzy18/web-application-security-hardening-nodejs.git
+```
+
+Open the project folder:
+
+```bash
+cd web-application-security-hardening-nodejs
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the application:
+
+```bash
+npm start
+```
+
+If no start script is configured, run:
+
+```bash
+node index.js
+```
+
+## Internship Learning Outcome
+
+This project helped me understand how basic web applications can be reviewed from a security perspective. It improved my understanding of common web security risks, secure coding practices, documentation, and how to present cybersecurity project work in a professional GitHub repository.
+
+## Status
+
+Completed as part of a cybersecurity internship learning task.
